@@ -1,0 +1,28 @@
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(48, 155, 209);
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(31, 33, 33);
+  padding-left: 75px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+}
+
+#div-nav-card {
+  margin-left: 50px;
+}
+
+.links {
+  text-decoration: none;
+  color: rgb(31, 33, 33)
+}
+
+.links:hover {
+  filter: brightness(200%);
+}
+.links:active {
+  filter: brightness(400%);
+}

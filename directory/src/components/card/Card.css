@@ -1,0 +1,66 @@
+#div-card {
+  background-color: rgb(31, 33, 33);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+#div-card-rect {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 50vw;
+  max-width: 750px;
+}
+
+#div-card-number {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+#h3-card-number {
+  align-self: flex-start;
+  margin: auto;
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+#div-card-text {
+  line-height: 1.5rem;
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  min-height: fit-content;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+
+#h2-card-name {
+  border-bottom: solid 3px rgb(48, 155, 209);
+  padding-bottom: 0.5rem; 
+  width: fit-content;
+  font-size: 2rem;
+  font-family: "Roboto";
+}
+
+.h3-card-bio {
+  font-weight: normal;
+  line-height: 1rem;
+  font-family: "Roboto";
+  margin: 1rem;
+}
+.h4-card-movie {
+  margin: 0.5rem;
+  padding-left: 3rem;
+  line-height: normal;
+  font-weight: normal;
+}

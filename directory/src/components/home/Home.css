@@ -1,0 +1,56 @@
+#div-homepage {
+  background-color: rgb(31, 33, 33);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+#div-homepage-rect {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-width: fit-content;
+  min-height: fit-content;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10%;
+}
+
+#div-homepage-text {
+  line-height: 1.5rem;
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: fit-content;
+  min-width: fit-content;
+  margin-bottom: 1rem;
+}
+#div-homepage-text > p {
+  font-size: 1em;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+#div-homepage-text > h2 {
+  font-size: 1.5rem;
+  font-family: "Roboto";
+}
+
+#button-homepage {
+  padding: 10px;
+  font-size: 2rem;
+  border-radius: 25px;
+  font-family: "Roboto";
+  background-color: rgb(48, 155, 209);
+  border: none;
+  color: white;
+}
+
+#button-homepage:hover {
+  filter: brightness(150%);
+}
